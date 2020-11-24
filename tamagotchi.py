@@ -67,7 +67,7 @@ class Tamagotchi(QWidget):
         self.hbox3.addWidget(QLabel('종합'))
         self.all_text = QTextEdit()
         self.all_text.setReadOnly(True)
-        self.hbox2.addWidget(self.all_text)
+        self.hbox3.addWidget(self.all_text)
 
         self.hbox4.addWidget(QLabel('배부름'))
         self.hunger_text = QTextEdit()
